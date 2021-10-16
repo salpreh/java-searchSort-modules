@@ -18,9 +18,9 @@ public class BinarySearchService implements ISearchService {
 
         int mid = (lo + hi) / 2;
         if (list.get(mid).compareTo(item) == 0) return mid;
-        else if (list.get(mid).compareTo(item) > 0) return search(list, item, lo, mid);
+        else if (list.get(mid).compareTo(item) > 0) return search(list, item, lo, mid - 1);
 
-        return search(list, item, mid, hi);
+        return search(list, item, mid + 1, hi);
     }
 
     @Override
