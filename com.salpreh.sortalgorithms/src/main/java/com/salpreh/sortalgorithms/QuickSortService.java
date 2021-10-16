@@ -1,4 +1,4 @@
-package com.salpreh.quicksortmodule;
+package com.salpreh.sortalgorithms;
 
 import com.salpreh.sortmodule.ISortService;
 
@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class QSSortService implements ISortService {
+public class QuickSortService implements ISortService {
 
     private Random random;
 
-    public QSSortService() {
+    public QuickSortService() {
         this.random = new Random();
     }
 
@@ -23,6 +23,11 @@ public class QSSortService implements ISortService {
         sort(res, 0, res.size() - 1);
 
         return res;
+    }
+
+    @Override
+    public String sortName() {
+        return "Quick Sort";
     }
 
     private <T extends Comparable<T>> void sort(List<T> list, int lo, int hi) {

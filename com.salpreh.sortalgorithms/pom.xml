@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>quicksortmodule</artifactId>
+    <artifactId>sortalgorithms</artifactId>
     <version>0.1.0</version>
 
     <dependencies>
@@ -19,6 +19,15 @@
             <version>0.1.0</version>
 <!--            <scope>compile</scope>-->
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <properties>

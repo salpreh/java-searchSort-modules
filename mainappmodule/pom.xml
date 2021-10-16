@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>com.salpreh</groupId>
-            <artifactId>quicksortmodule</artifactId>
+            <artifactId>sortalgorithms</artifactId>
             <version>0.1.0</version>
         </dependency>
     </dependencies>
