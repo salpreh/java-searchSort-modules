@@ -28,6 +28,7 @@
         <module>com.salpreh.sortalgorithms</module>
         <module>com.salpreh.sortsearch</module>
         <module>mainappmodule</module>
+        <module>com.salpreh.searchalgorithms</module>
     </modules>
 
     <properties>

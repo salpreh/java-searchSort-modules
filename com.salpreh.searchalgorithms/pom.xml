@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sortalgorithms</artifactId>
+    <artifactId>com.salpreh.searchalgorithms</artifactId>
     <version>0.1.0</version>
 
     <dependencies>
@@ -26,7 +26,6 @@
             <version>5.8.1</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <properties>
