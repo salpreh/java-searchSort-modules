@@ -1,5 +1,5 @@
 module com.salpreh.mainappmodule {
-    requires com.salpreh.sortmodule;
+    requires com.salpreh.sortsearch;
     requires com.salpreh.sortalgorithms;
-    uses com.salpreh.sortmodule.ISortService;
+    uses com.salpreh.sortsearch.ISortService;
 }

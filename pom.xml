@@ -25,8 +25,8 @@
         </pluginManagement>
     </build>
     <modules>
-        <module>sortmodule</module>
-        <module>quicksortmodule</module>
+        <module>com.salpreh.sortalgorithms</module>
+        <module>com.salpreh.sortsearch</module>
         <module>mainappmodule</module>
     </modules>
 

@@ -1,6 +1,6 @@
 package com.salpreh.mainappmodule;
 
-import com.salpreh.sortmodule.ISortService;
+import com.salpreh.sortsearch.ISortService;
 
 import java.time.Duration;
 import java.time.Instant;

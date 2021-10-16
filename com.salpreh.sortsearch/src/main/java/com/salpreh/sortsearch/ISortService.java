@@ -1,4 +1,4 @@
-package com.salpreh.sortmodule;
+package com.salpreh.sortsearch;
 
 import java.util.List;
 

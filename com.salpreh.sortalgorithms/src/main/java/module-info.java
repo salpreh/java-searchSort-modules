@@ -2,7 +2,7 @@ import com.salpreh.sortalgorithms.MergeSortService;
 import com.salpreh.sortalgorithms.QuickSortService;
 
 module com.salpreh.sortalgorithms {
-    requires com.salpreh.sortmodule;
+    requires com.salpreh.sortsearch;
     exports com.salpreh.sortalgorithms;
-    provides com.salpreh.sortmodule.ISortService with QuickSortService, MergeSortService;
+    provides com.salpreh.sortsearch.ISortService with QuickSortService, MergeSortService;
 }

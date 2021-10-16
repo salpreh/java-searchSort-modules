@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.salpreh</groupId>
-            <artifactId>sortmodule</artifactId>
+            <artifactId>sortsearch</artifactId>
             <version>0.1.0</version>
         </dependency>
         <dependency>

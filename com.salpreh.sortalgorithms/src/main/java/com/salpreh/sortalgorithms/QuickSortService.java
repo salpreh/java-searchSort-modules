@@ -1,6 +1,6 @@
 package com.salpreh.sortalgorithms;
 
-import com.salpreh.sortmodule.ISortService;
+import com.salpreh.sortsearch.ISortService;
 
 import java.util.ArrayList;
 import java.util.List;
